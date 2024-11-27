@@ -2,7 +2,7 @@ using UnityEngine;
 using Unity.Mathematics;
 using Random = Unity.Mathematics.Random;
 
-public sealed class OrbSpawner : MonoBehaviour
+public sealed class Spawner : MonoBehaviour
 {
     [SerializeField] GameObject _prefab = null;
     [SerializeField] float2 _extent = math.float2(10, 10);
